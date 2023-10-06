@@ -12,6 +12,7 @@ def attack(char_name, char_class):
         return (f'{char_name} нанёс противнику урон, равный '
                 f'{5 + randint(-3, -1)}')
 
+
 def defence(char_name, char_class):
     if char_class == 'warrior':
         return (f'{char_name} блокировал {10 + randint(5, 10)} ед. урона')
